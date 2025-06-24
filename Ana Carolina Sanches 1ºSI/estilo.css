@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+}
+
+
+.logo {
+    display: flex;
+}
+
+.logo h1 {
+    padding-left: 30px;
+    text-align: right;
+}
+
+#logo_imagem {
+    width: 300px;
+    height: 300px;
+
+}
+
+h1 {
+    font-size: 75px;
+    color: #D9718C;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#img_pix {
+    width: 50px;
+    height: 50px;
+
+}
+
+#img_cartao {
+    width: 50px;
+    height: 50px;
+
+}
+
+#img_dinheiro {
+    width: 50px;
+    height: 50px;
+}
+
+.redes {
+    width: 50px;
+    height: 50px;
+    display: flex;
+
+}
+
+
+.botao {
+    height: 50px;
+}
+
+#Menu {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #222226;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    font-size:16px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#Menu a {
+    padding: 10px;
+    color: #732D3F; 
+}
+
+.Inicio {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid #222226;
+    padding: 5px;
+}
+
+.Produtos {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Pagamento {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.Pagamentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Redes {
+    align-items: center;
+
+}
+
+.pai_cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #222226;
+}
+
+
+
+.img_produto img {
+    width: 150px;
+    height: 150px;
+}
+
+.item_pagamento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+.itens_pagamentos {
+    display: flex;
+}
+.itens_pagamentos div {
+    padding: 30px;
+}
+
+.img_produto {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.preco_produto {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    padding-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #222226;
+} 
+
+.preco_produto h3 { 
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.produtos_gloss { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gloss {
+    padding: 20px;
+    display: flex;
+     width: 50%;
+     align-items: end;
+     justify-content: center;
+}
+
+#logo_historia {
+    width: 300px;
+    height: 300px;
+}
+.hist_sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.marketing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marketings { 
+    padding-left: 45px;
+}
+
+.titulo_produtos { 
+    padding-left: 50px;
+}
+.Funcionamento_empresa {
+    color:#A63F5A;
+}
+footer {
+    background-color: #FFEAD1;
+    color: #222226;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 16px;
+}
+#funcionamento { 
+    font-size:16px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.Funcionamento_empresa p {
+    color: #222226;
+    font-size: 25px;
+    line-height:normal
+}
+#redes  {
+    font-size: 25px;
+}
